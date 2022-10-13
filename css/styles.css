@@ -7,18 +7,28 @@ h1 {
 h2 {
   font-style: oblique;
   text-align: center;
+  font-family: cursive;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+h3 {
+  font-style: oblique;
+  text-align: center;
 }
 
 .intro {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: justify;
+  background-color: rgb(225, 184, 238);
+  padding: 10px;
 }
 
 .column1 {
   float: left;
   width: 30%;
   padding: 15px;
-  bord
+
 }
 
 .column2 {
@@ -33,6 +43,12 @@ h2 {
   padding: 15px;
 }
 
+.intro {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
 p.intro {
   text-align: justify;
   font-size: 20px;
@@ -44,9 +60,23 @@ p.column1, p.column2, p.column3 {
 
 body {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  margin: auto;
+  display: block;
 }
 
 .centered-image {
   margin: auto;
-  height: auto;
+  max-height: 500px;
+  max-width: 500px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.bold {
+  font-weight: 600;
+  color:rgb(127, 65, 169)
 }
